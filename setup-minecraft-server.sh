@@ -26,13 +26,13 @@ mkdir $server_folder
 cd $server_folder
 
 # Download Minecraft Server file
-wget $minecraft_server_url -O minecraft_server.${minecraft_server_version}.jar
+sudo wget $minecraft_server_url -O minecraft_server.${minecraft_server_version}.jar
 
 # Run server with 1GB allocated memory (adjust as needed)
-java -Xmx${minecraft_server_ram} -Xms${minecraft_server_ram} -jar minecraft_server.${minecraft_server_version}.jar nogui
+sudo java -Xmx${minecraft_server_ram} -Xms${minecraft_server_ram} -jar minecraft_server.${minecraft_server_version}.jar nogui
 
 # Accept EULA agreement
-echo "eula=true" > eula.txt
+sudo echo "eula=true" > eula.txt
 
 # Run server again with accepted EULA
 # java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.jar nogui
