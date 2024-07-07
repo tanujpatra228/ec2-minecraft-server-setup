@@ -9,7 +9,7 @@ This is used to install minecraft server on an EC2 instance
 - Clone this repo ```sudo git clone https://github.com/tanujpatra228/ec2-minecraft-server-setup.git .```
 - Change the values (optional): ```sudo nano setup-minecraft-server.sh```, you can change the jdk version, minecraft server folder name, minecraft server version and download url.
 
-- Run the setup file ```sh setup-minecraft-server.sh```
+- Run the setup file ```sudo sh setup-minecraft-server.sh```
 
 ### Run the server
 After setup is ready follow the steps to run the server. (The following setps assumes you have not changes the values in setup-minecraft-server.sh file, update the commands accordingly if changed)
