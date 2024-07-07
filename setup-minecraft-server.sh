@@ -38,5 +38,5 @@ echo "eula=true" > eula.txt
 # java -Xmx1024M -Xms1024M -jar minecraft_server.1.21.jar nogui
 ls -a
 echo "Change the server.properties to your likings and"
-echo "Run the following command inside $server_folder, whenever you want to run the Minecraft server"
+echo "Run the following command inside $server_folder folder, whenever you want to run the Minecraft server"
 echo "java -Xmx${minecraft_server_ram} -Xms${minecraft_server_ram} -jar minecraft_server.${minecraft_server_version}.jar nogui"
