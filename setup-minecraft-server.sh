@@ -4,6 +4,7 @@
 jdk_version="openjdk-21-jdk"
 server_folder="minecraft_server"
 
+# Check for latest verion: https://www.minecraft.net/en-us/download/server
 # Replace the following url and version with the server url and version you want to install
 minecraft_server_url="https://piston-data.mojang.com/v1/objects/450698d1863ab5180c25d7c804ef0fe6369dd1ba/server.jar"
 minecraft_server_version="1.21"
